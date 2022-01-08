@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="googlePixel2Xl12VM" type="com.finalytics.app.modules.googlepixel2xl12.data.viewmodel.GooglePixel2Xl12VM"/>
+    </data>
+    <LinearLayout android:id="@+id/linear"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_900">
+        <androidx.appcompat.widget.AppCompatButton
+            android:gravity="center" android:id="@+id/btnPhonepe4"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_85pxh"
+            android:layout_marginStart="@dimen/_85pxh"
+            android:layout_marginTop="@dimen/_39pxv"
+            android:layout_width="match_parent"
+            android:text="@string/lbl_phonepe4"
+            android:textAllCaps="false"
+            style="@style/btnSolidRounded_10" tools:text="@string/lbl_phonepe4"/>
+        <TextView android:gravity="center"
+            android:id="@+id/txtSwotAnalysisO"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_101pxh"
+            android:layout_marginStart="@dimen/_101pxh"
+            android:layout_marginTop="@dimen/_29pxv"
+            android:layout_width="wrap_content"
+            android:text="@{googlePixel2Xl12VM.googlePixel2Xl12Model.txtSwotAnalysisO}"
+            style="@style/txtPublicSanssemibold18" tools:text="@string/msg_swot_analysis_o"/>
+        <TextView android:gravity="center"
+            android:id="@+id/txtOpportunities"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_143pxh"
+            android:layout_marginStart="@dimen/_150pxh"
+            android:layout_marginTop="@dimen/_29pxv"
+            android:layout_width="wrap_content"
+            android:text="@{googlePixel2Xl12VM.googlePixel2Xl12Model.txtOpportunities}"
+            style="@style/txtPublicSanssemibold18" tools:text="@string/lbl_opportunities"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtIndianEconomy"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_43pxh"
+            android:layout_marginStart="@dimen/_43pxh"
+            android:layout_marginTop="@dimen/_22pxv"
+            android:layout_width="match_parent"
+            android:text="@{googlePixel2Xl12VM.googlePixel2Xl12Model.txtIndianEconomy}"
+            style="@style/txtPublicSanssemibold22" tools:text="@string/msg_indian_economy"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtPhonepeComesI"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_17pxh"
+            android:layout_marginStart="@dimen/_17pxh"
+            android:layout_marginTop="@dimen/_19pxv"
+            android:layout_width="match_parent"
+            android:text="@{googlePixel2Xl12VM.googlePixel2Xl12Model.txtPhonepeComesI}"
+            style="@style/txtPublicSanssemibold22_1" tools:text="@string/msg_phonepe_comes_i"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtAsAPlatformC"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_17pxh"
+            android:layout_marginStart="@dimen/_17pxh"
+            android:layout_marginTop="@dimen/_32pxv"
+            android:layout_width="match_parent"
+            android:text="@{googlePixel2Xl12VM.googlePixel2Xl12Model.txtAsAPlatformC}"
+            style="@style/txtPublicSanssemibold22_1" tools:text="@string/msg_as_a_platform_c"/>
+        <FrameLayout android:id="@+id/frame"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_34pxv"
+            android:layout_marginEnd="@dimen/_46pxh"
+            android:layout_marginStart="@dimen/_46pxh"
+            android:layout_marginTop="@dimen/_50pxv" android:layout_width="match_parent">
+            <ImageView android:clickable="true" android:gravity="center"
+                android:id="@+id/image" android:layout_gravity="center"
+                android:layout_height="@dimen/_52pxv"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY" android:src="@drawable/img_rectangle_6_6"/>
+            <TextView android:gravity="center"
+                android:id="@+id/txtContinue"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_16pxv"
+                android:layout_marginEnd="@dimen/_31pxh"
+                android:layout_marginStart="@dimen/_32pxh"
+                android:layout_marginTop="@dimen/_15pxv"
+                android:layout_width="wrap_content"
+                android:text="@{googlePixel2Xl12VM.googlePixel2Xl12Model.txtContinue}"
+                style="@style/txtPublicSansbold18" tools:text="@string/lbl_continue"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="googlePixel2Xl9VM" type="com.finalytics.app.modules.googlepixel2xl9.data.viewmodel.GooglePixel2Xl9VM"/>
+    </data>
+    <LinearLayout android:id="@+id/linear"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_900">
+        <ImageView android:clickable="true" android:id="@+id/image"
+            android:layout_gravity="end"
+            android:layout_height="@dimen/_30pxv"
+            android:layout_marginEnd="@dimen/_68pxh"
+            android:layout_marginStart="@dimen/_68pxh"
+            android:layout_marginTop="@dimen/_20pxv"
+            android:layout_width="@dimen/_30pxh"
+            android:scaleType="centerCrop" android:src="@drawable/img_arrow"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtThreats2" android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_141pxh"
+            android:layout_marginStart="@dimen/_141pxh"
+            android:layout_width="wrap_content"
+            android:text="@{googlePixel2Xl9VM.googlePixel2Xl9Model.txtThreats2}"
+            style="@style/txtPublicSanssemibold22" tools:text="@string/lbl_threats2"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtBankServicesS"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_40pxh"
+            android:layout_marginStart="@dimen/_41pxh"
+            android:layout_marginTop="@dimen/_54pxv"
+            android:layout_width="match_parent"
+            android:text="@{googlePixel2Xl9VM.googlePixel2Xl9Model.txtBankServicesS}"
+            style="@style/txtPublicSanssemibold22_3" tools:text="@string/msg_bank_services_s"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtSecuritySecuri"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_40pxh"
+            android:layout_marginStart="@dimen/_41pxh"
+            android:layout_marginTop="@dimen/_18pxv"
+            android:layout_width="match_parent"
+            android:text="@{googlePixel2Xl9VM.googlePixel2Xl9Model.txtSecuritySecuri}"
+            style="@style/txtPublicSanssemibold22_3" tools:text="@string/msg_security_securi"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtCompetitionWi"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_44pxh"
+            android:layout_marginStart="@dimen/_37pxh"
+            android:layout_marginTop="@dimen/_19pxv"
+            android:layout_width="match_parent"
+            android:text="@{googlePixel2Xl9VM.googlePixel2Xl9Model.txtCompetitionWi}"
+            style="@style/txtPublicSanssemibold22_3" tools:text="@string/msg_competition_wi"/>
+        <ImageView android:id="@+id/image1"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_212pxv"
+            android:layout_marginEnd="@dimen/_13pxh"
+            android:layout_marginStart="@dimen/_13pxh"
+            android:layout_marginTop="@dimen/_64pxv"
+            android:layout_width="@dimen/_385pxh"
+            android:scaleType="centerCrop"
+            cornerRadius="@{@dimen/_20pxh}"
+            imageRes="@{@drawable/img_image_4}" tools:src="@drawable/img_image_4"/>
+    </LinearLayout>
+</layout>

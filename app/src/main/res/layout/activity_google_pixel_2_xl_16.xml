@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="googlePixel2Xl16VM" type="com.finalytics.app.modules.googlepixel2xl16.data.viewmodel.GooglePixel2Xl16VM"/>
+    </data>
+    <LinearLayout android:id="@+id/linear"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_900">
+        <androidx.appcompat.widget.AppCompatButton
+            android:gravity="center" android:id="@+id/btnMobikwik"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_85pxh"
+            android:layout_marginStart="@dimen/_85pxh"
+            android:layout_marginTop="@dimen/_39pxv"
+            android:layout_width="match_parent"
+            android:text="@string/lbl_mobikwik"
+            android:textAllCaps="false"
+            style="@style/btnSolidRounded_10" tools:text="@string/lbl_mobikwik"/>
+        <TextView android:gravity="center"
+            android:id="@+id/txtSwotAnalysisO"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_101pxh"
+            android:layout_marginStart="@dimen/_101pxh"
+            android:layout_marginTop="@dimen/_29pxv"
+            android:layout_width="wrap_content"
+            android:text="@{googlePixel2Xl16VM.googlePixel2Xl16Model.txtSwotAnalysisO}"
+            style="@style/txtPublicSanssemibold18" tools:text="@string/msg_swot_analysis_o"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtOpportunitiesA"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_85pxh"
+            android:layout_marginStart="@dimen/_85pxh"
+            android:layout_marginTop="@dimen/_26pxv"
+            android:layout_width="wrap_content"
+            android:text="@{googlePixel2Xl16VM.googlePixel2Xl16Model.txtOpportunitiesA}"
+            style="@style/txtPublicSanssemibold18" tools:text="@string/msg_opportunities_a"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txt500MillionPla"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_53pxh"
+            android:layout_marginStart="@dimen/_44pxh"
+            android:layout_marginTop="@dimen/_25pxv"
+            android:layout_width="match_parent"
+            android:text="@{googlePixel2Xl16VM.googlePixel2Xl16Model.txt500MillionPla}"
+            style="@style/txtPublicSanssemibold22" tools:text="@string/msg_500_million_pla"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtTheRevenueOf"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_56pxh"
+            android:layout_marginStart="@dimen/_41pxh"
+            android:layout_marginTop="@dimen/_19pxv"
+            android:layout_width="match_parent"
+            android:text="@{googlePixel2Xl16VM.googlePixel2Xl16Model.txtTheRevenueOf}"
+            style="@style/txtPublicSanssemibold22" tools:text="@string/msg_the_revenue_of"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtCashOnDeliver"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_44pxv"
+            android:layout_width="match_parent"
+            android:text="@{googlePixel2Xl16VM.googlePixel2Xl16Model.txtCashOnDeliver}"
+            style="@style/txtPublicSanssemibold22_1" tools:text="@string/msg_cash_on_deliver"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtPaytmFreechar"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_26pxv"
+            android:layout_width="match_parent"
+            android:text="@{googlePixel2Xl16VM.googlePixel2Xl16Model.txtPaytmFreechar}"
+            style="@style/txtPublicSanssemibold22_1" tools:text="@string/msg_paytm_freechar"/>
+        <FrameLayout android:id="@+id/frame"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_34pxv"
+            android:layout_marginEnd="@dimen/_46pxh"
+            android:layout_marginStart="@dimen/_46pxh"
+            android:layout_marginTop="@dimen/_114pxv" android:layout_width="match_parent">
+            <ImageView android:clickable="true" android:gravity="center"
+                android:id="@+id/image" android:layout_gravity="center"
+                android:layout_height="@dimen/_56pxv"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY" android:src="@drawable/img_rectangle_6_10"/>
+            <TextView android:gravity="center"
+                android:id="@+id/txtContinue"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_17pxv"
+                android:layout_marginEnd="@dimen/_31pxh"
+                android:layout_marginStart="@dimen/_32pxh"
+                android:layout_marginTop="@dimen/_18pxv"
+                android:layout_width="wrap_content"
+                android:text="@{googlePixel2Xl16VM.googlePixel2Xl16Model.txtContinue}"
+                style="@style/txtPublicSansbold18" tools:text="@string/lbl_continue"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

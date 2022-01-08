@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">Finalytics</string>
+    <string name="loading">Loading?</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="facebook_app_id">&lt;!--TODO YOUR APP ID HERE--&gt;</string>
+    <string name="fb_login_protocol_scheme">fb&lt;!--TODO YOUR APP ID HERE--&gt;</string>
+<string name="lbl_continue">Continue</string>
+<string name="msg_cash_on_deliver">Cash on Delivery option through e-commerce&#13;
+</string>
+<string name="lbl_enter_name">Enter name</string>
+<string name="msg_acceptance_pay">Acceptance: Paytm has achieved high acceptance from themerchants across India, whichhas led to the growth of thebrand</string>
+<string name="msg_opportunities_a">Opportunities and threats</string>
+<string name="msg_the_revenue_of">The revenue of the POS terminal market is expected to grow at a CAGR of 23.30% in terms of&#13;
+revenue during 2014-2019</string>
+<string name="msg_confirm_passwor">Confirm Password</string>
+<string name="lbl_strength">Strength</string>
+<string name="lbl_home">Home</string>
+<string name="msg_the_number_of_w">The number of working professionals are increasing profusely.</string>
+<string name="msg_you_can_book_tr">You can book travel tickets through Phonepe app. Also, you can cancel booked tickets&#13;
+through Phonepe. But the ticket should be booked through Phonepe app. The problem&#13;
+arises when there is a refund issue of the cancelled ticket</string>
+<string name="lbl_app_navigation">App Navigation</string>
+<string name="lbl_a4_1">A4 - 1</string>
+<string name="msg_city_ravensdale">City	RAVENSDALE&#13;
+State/Province abbr	WA</string>
+<string name="lbl_sign_in">Sign in</string>
+<string name="msg_get_analysis_of">Get analysis of all payment apps</string>
+<string name="msg_transaction_tim">Transaction time is longer than industry average&#13;
+</string>
+<string name="msg_in_june_about">In June, about 290 million transactions were carried out via&#13;
+PhonePe, compared to 71 million transactions at $22 billion a year earlier, according to a&#13;
+Bloomberg report.</string>
+<string name="msg_no_interest_on">No Interest on your Wallet Deposit</string>
+<string name="msg_competition_wi">Competition: With lowered barriers to entry, every new entrepreneur is looking at aggregating services. There are a lot of online portals like pay charge, mobikwik etc</string>
+<string name="lbl_mobikwik">Mobikwik</string>
+<string name="lbl_contact">Contact</string>
+<string name="lbl_finalytics_app">Finalytics App</string>
+<string name="msg_click_on_get_st">click on get started and get 
+information of all digital payment apps on your fingertips</string>
+<string name="lbl_amazon_pay">Amazon Pay</string>
+<string name="lbl_weakeness">Weakeness</string>
+<string name="msg_forgot_passwor">Forgot  password?</string>
+<string name="msg_as_a_platform_c">As a platform created by the NPCI, UPI will have further security integrations in the&#13;
+future</string>
+<string name="lbl_weakness2">WEAKNESS</string>
+<string name="msg_this_allows_for">This allows for shopping with any merchant without the need of revealing one’s card or bank details as well as awards the user with various unique discounts and perks each time they adopt the wallet for carrying out their payment.</string>
+<string name="msg_street_2924_loc">Street	2924 Locust Street</string>
+<string name="msg_indian_economy">Indian Economy moving towards Cashless Transactions- 31 banks have already&#13;
+joined the UPI interface and the remaining banks will join soon. UPI is completely&#13;
+free and most probably will remain free in coming time as well.</string>
+<string name="msg_diversification">Diversification : Paytm has already diversified more than what was beneficial for them</string>
+<string name="msg_not_in_awarenes">Not in awareness set of customers&#13;
+</string>
+<string name="msg_paytm_freechar">Paytm, Freecharge</string>
+<string name="msg_cash_usage_the">Cash usage:The people in Indiaare more used to using cash astheir primary currency and not online payments</string>
+<string name="lbl_oppurtunities">OPPURTUNITIES</string>
+<string name="lbl_threats">Threats</string>
+<string name="msg_please_enter_yo">Please enter your email address.
+you’ll recieve link to generate password</string>
+<string name="msg_state_province">State/Province full	Washington</string>
+<string name="msg_phonepe_is_a_rb">PhonePe is a RBI authorized company and has registered as partial&#13;
+payment system with RBI</string>
+<string name="msg_awareness_payt">Awareness: Paytm can create awareness among the consumers about the usage of online payments and making cashless transactions</string>
+<string name="msg_check_your_app">Check your app\'s UI from the below demo screens of your app.</string>
+<string name="lbl_password">Password</string>
+<string name="msg_mobile_number_3">Mobile Number	360-649-5058</string>
+<string name="msg_initiator_payt">Initiator: Paytm was the mainonline instalment organization toset up tasks in India</string>
+<string name="msg_choose_app_to_s">Choose app to see analysis</string>
+<string name="lbl_enter_password">Enter Password</string>
+<string name="msg_well_known_pay">Well known: Paytm has got extremely high brand awareness all across India</string>
+<string name="msg_for_instance_i">For instance, it allows users to recharge their mobile via its Android/iOS/BB/Windows App, or to adopt the platform for purposes like purchasing bus tickets from authentic websites</string>
+<string name="lbl_phonepe4">Phonepe</string>
+<string name="lbl_phonepe5">Phonepe</string>
+<string name="lbl_phonepe2">Phonepe</string>
+<string name="lbl_phonepe3">Phonepe</string>
+<string name="msg_it_is_to_be_not">It is to be noted that Google Pay recorded more than 240 million&#13;
+transactions in May, beating both Flipkart-owned PhonePe with around 230&#13;
+million UPI payments last month, and Paytm having 200 million transactions,&#13;
+Economic Times reported</string>
+<string name="lbl_apps">Apps</string>
+<string name="msg_zip_code_postal">Zip Code/Postal code	98051</string>
+<string name="msg_trust_issues_re">Trust issues regarding successful transactions</string>
+<string name="lbl_threats2">THREATS</string>
+<string name="msg_larger_audience">Larger audience:Paytm cancater to a larger audience with some presence offline as well</string>
+<string name="lbl_hey_sweta">Hey Sweta</string>
+<string name="msg_already_registe">Already Registered?</string>
+<string name="msg_phonepe_comes_i">PhonePe comes in top brands of payment transfer app</string>
+<string name="lbl_contact_us">Contact us</string>
+<string name="lbl_get_started">Get started</string>
+<string name="msg_privacy_is_an_i">Privacy is an illusion: Mobikwik India 8.5 TB Data Leak 2021</string>
+<string name="msg_google_pixel_29">Google Pixel 2 XL - 12</string>
+<string name="lbl_register">Register</string>
+<string name="lbl_submit">Submit</string>
+<string name="msg_google_pixel_25">Google Pixel 2 XL - 5</string>
+<string name="msg_google_pixel_26">Google Pixel 2 XL - 6</string>
+<string name="msg_google_pixel_27">Google Pixel 2 XL - 10</string>
+<string name="msg_google_pixel_28">Google Pixel 2 XL - 11</string>
+<string name="msg_google_pixel_22">Google Pixel 2 XL - 2</string>
+<string name="msg_google_pixel_23">Google Pixel 2 XL - 3</string>
+<string name="msg_google_pixel_24">Google Pixel 2 XL - 4</string>
+<string name="lbl_email">Email</string>
+<string name="msg_bank_services_s">Bank services:Some banksprovide e-wallet services along with the savings account</string>
+<string name="lbl_google_pay">Google Pay</string>
+<string name="lbl_weakness">Weakness</string>
+<string name="lbl_phonepe">PhonePe</string>
+<string name="msg_security_securi">Security:security and privacy ofcustomer’s information is amajor concern for Paytm</string>
+<string name="lbl_opportunities">Opportunities</string>
+<string name="msg_swot_analysis_o">SWOT Analysis of Paytm</string>
+<string name="lbl_enter_email">Enter email</string>
+<string name="lbl_strengths">STRENGTHS</string>
+<string name="lbl_forgot_password">Forgot password</string>
+<string name="lbl_more">More</string>
+<string name="lbl_welcome_back">Welcome back</string>
+<string name="msg_google_pixel_217">Google Pixel 2 XL - 9</string>
+<string name="msg_google_pixel_216">Google Pixel 2 XL - 8</string>
+<string name="msg_upi_app_not_a">UPI App, not a wallet app, which means you certainly need to have a bank&#13;
+account to use its services.</string>
+<string name="msg_google_pixel_2">Google Pixel 2 XL - 17</string>
+<string name="msg_google_pixel_215">Google Pixel 2 XL - 7</string>
+<string name="msg_google_pixel_214">Google Pixel 2 XL - 18</string>
+<string name="msg_google_pixel_213">Google Pixel 2 XL - 16</string>
+<string name="msg_google_pixel_212">Google Pixel 2 XL - 15</string>
+<string name="msg_google_pixel_211">Google Pixel 2 XL - 14</string>
+<string name="msg_google_pixel_210">Google Pixel 2 XL - 13</string>
+<string name="msg_500_million_pla">500 million plastic cards but only about half a million point of sale terminals&#13;
+</string>
+<string name="msg_consumer_friend">Consumer friendly:Attractsmore consumers comparativelyby offering multiple cashbackoptions to them</string>
+<string name="msg_safe_and_secure">Safe and secure- the platform assures users that their financial details are&#13;
+secured and protected against cybercriminals.</string>
+<string name="lbl_paytm">Paytm</string>
+</resources>

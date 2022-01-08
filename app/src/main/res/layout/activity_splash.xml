@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="splashVM" type="com.finalytics.app.modules.splash.data.viewmodel.SplashVM"/>
+    </data>
+    <LinearLayout android:id="@+id/linear"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_900">
+        <TextView android:gravity="center"
+            android:id="@+id/txtFinalyticsApp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_124pxh"
+            android:layout_marginStart="@dimen/_129pxh"
+            android:layout_marginTop="@dimen/_48pxv"
+            android:layout_width="wrap_content"
+            android:text="@{splashVM.splashModel.txtFinalyticsApp}"
+            style="@style/txtPoppinssemibold22" tools:text="@string/lbl_finalytics_app"/>
+        <ImageView android:gravity="center" android:id="@+id/image"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_251pxv"
+            android:layout_marginEnd="@dimen/_65pxh"
+            android:layout_marginStart="@dimen/_73pxh"
+            android:layout_marginTop="@dimen/_41pxv"
+            android:layout_width="@dimen/_273pxh"
+            android:scaleType="fitXY" android:src="@drawable/img_undrawmobileappsre3wjf_1"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:gravity="center" android:id="@+id/btnGetAnalysisOf"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_37pxh"
+            android:layout_marginStart="@dimen/_31pxh"
+            android:layout_marginTop="@dimen/_41pxv"
+            android:layout_width="match_parent"
+            android:text="@string/msg_get_analysis_of"
+            android:textAllCaps="false" style="@style/btnSolidRounded" tools:text="@string/msg_get_analysis_of"/>
+        <TextView android:gravity="top|center"
+            android:id="@+id/txtClickOnGetSt"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_26pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_marginTop="@dimen/_72pxv"
+            android:layout_width="match_parent"
+            android:text="@{splashVM.splashModel.txtClickOnGetSt}"
+            style="@style/txtLibreFranklinsemibold18" tools:text="@string/msg_click_on_get_st"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:clickable="true" android:gravity="center"
+            android:id="@+id/btnGetStarted"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_8pxv"
+            android:layout_marginEnd="@dimen/_128pxh"
+            android:layout_marginStart="@dimen/_118pxh"
+            android:layout_marginTop="@dimen/_61pxv"
+            android:layout_width="match_parent"
+            android:text="@string/lbl_get_started"
+            android:textAllCaps="false" style="@style/btnSolidRounded_1" tools:text="@string/lbl_get_started"/>
+    </LinearLayout>
+</layout>
