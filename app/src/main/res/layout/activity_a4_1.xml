@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="a41VM" type="com.finalytics.app.modules.a41.data.viewmodel.A41VM"/>
+    </data>
+    <LinearLayout android:id="@+id/linear"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_900">
+        <androidx.appcompat.widget.AppCompatButton
+            android:clickable="true" android:gravity="center"
+            android:id="@+id/btnHome"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_23pxh"
+            android:layout_marginStart="@dimen/_22pxh"
+            android:layout_marginTop="@dimen/_93pxv"
+            android:layout_width="match_parent"
+            android:text="@string/lbl_home" android:textAllCaps="false"
+            style="@style/btnSolidRounded_7" tools:text="@string/lbl_home"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:clickable="true" android:gravity="center"
+            android:id="@+id/btnApps"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_26pxh"
+            android:layout_marginStart="@dimen/_19pxh"
+            android:layout_marginTop="@dimen/_70pxv"
+            android:layout_width="match_parent"
+            android:text="@string/lbl_apps" android:textAllCaps="false"
+            style="@style/btnSolidRounded_8" tools:text="@string/lbl_apps"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:clickable="true" android:gravity="center"
+            android:id="@+id/btnContact"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_71pxv"
+            android:layout_marginEnd="@dimen/_23pxh"
+            android:layout_marginStart="@dimen/_22pxh"
+            android:layout_marginTop="@dimen/_83pxv"
+            android:layout_width="match_parent"
+            android:text="@string/lbl_contact"
+            android:textAllCaps="false" style="@style/btnSolidRounded_9" tools:text="@string/lbl_contact"/>
+    </LinearLayout>
+</layout>

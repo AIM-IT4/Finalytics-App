@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="googlePixel2Xl4VM" type="com.finalytics.app.modules.googlepixel2xl4.data.viewmodel.GooglePixel2Xl4VM"/>
+    </data>
+    <LinearLayout android:id="@+id/linear"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <ImageView android:clickable="true" android:id="@+id/image"
+            android:layout_gravity="start"
+            android:layout_height="@dimen/_30pxv"
+            android:layout_marginTop="@dimen/_16pxv"
+            android:layout_width="@dimen/_30pxh"
+            android:scaleType="centerCrop" android:src="@drawable/img_back"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtForgotPassword"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_24pxh"
+            android:layout_marginStart="@dimen/_24pxh"
+            android:layout_marginTop="@dimen/_62pxv"
+            android:layout_width="match_parent"
+            android:text="@{googlePixel2Xl4VM.googlePixel2Xl4Model.txtForgotPassword}"
+            style="@style/txtPoppinssemibold36" tools:text="@string/lbl_forgot_password"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtPleaseEnterYo"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_23pxh"
+            android:layout_marginStart="@dimen/_25pxh"
+            android:layout_marginTop="@dimen/_62pxv"
+            android:layout_width="match_parent"
+            android:text="@{googlePixel2Xl4VM.googlePixel2Xl4Model.txtPleaseEnterYo}"
+            style="@style/txtPoppinssemibold18_1" tools:text="@string/msg_please_enter_yo"/>
+        <TextView android:gravity="top|start" android:id="@+id/txtEmail"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_43pxh"
+            android:layout_marginStart="@dimen/_43pxh"
+            android:layout_marginTop="@dimen/_49pxv"
+            android:layout_width="match_parent"
+            android:text="@{googlePixel2Xl4VM.googlePixel2Xl4Model.txtEmail}"
+            style="@style/txtPoppinsregular18_2" tools:text="@string/lbl_email"/>
+        <View android:background="@color/red_A700"
+            android:id="@+id/line" android:layout_gravity="center"
+            android:layout_height="@dimen/_1pxv"
+            android:layout_marginEnd="@dimen/_54pxh"
+            android:layout_marginStart="@dimen/_55pxh"
+            android:layout_marginTop="@dimen/_14pxv" android:layout_width="@dimen/_302pxh"/>
+        <FrameLayout android:gravity="center" android:id="@+id/frame"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_322pxv"
+            android:layout_marginEnd="@dimen/_134pxh"
+            android:layout_marginStart="@dimen/_136pxh"
+            android:layout_marginTop="@dimen/_83pxv" android:layout_width="match_parent">
+            <ImageView android:clickable="true" android:gravity="center"
+                android:id="@+id/image1" android:layout_gravity="center"
+                android:layout_height="@dimen/_48pxv"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY" android:src="@drawable/img_rectangle_6_2"/>
+            <TextView android:gravity="center"
+                android:id="@+id/txtSubmit"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_14pxv"
+                android:layout_marginEnd="@dimen/_39pxh"
+                android:layout_marginStart="@dimen/_39pxh"
+                android:layout_marginTop="@dimen/_13pxv"
+                android:layout_width="wrap_content"
+                android:text="@{googlePixel2Xl4VM.googlePixel2Xl4Model.txtSubmit}"
+                style="@style/txtPublicSansbold18" tools:text="@string/lbl_submit"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

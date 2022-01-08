@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="googlePixel2Xl3VM" type="com.finalytics.app.modules.googlepixel2xl3.data.viewmodel.GooglePixel2Xl3VM"/>
+    </data>
+    <LinearLayout android:id="@+id/linear"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_900">
+        <ImageView android:id="@+id/image"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_250pxv"
+            android:layout_marginEnd="@dimen/_54pxh"
+            android:layout_marginStart="@dimen/_55pxh"
+            android:layout_marginTop="@dimen/_20pxv"
+            android:layout_width="@dimen/_302pxh"
+            android:scaleType="centerCrop"
+            imageRes="@{@drawable/img_image_2}" tools:src="@drawable/img_image_2"/>
+        <TextView android:gravity="center"
+            android:id="@+id/txtWelcomeBack"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_117pxh"
+            android:layout_marginStart="@dimen/_111pxh"
+            android:layout_marginTop="@dimen/_33pxv"
+            android:layout_width="wrap_content"
+            android:text="@{googlePixel2Xl3VM.googlePixel2Xl3Model.txtWelcomeBack}"
+            style="@style/txtPoppinssemibold24" tools:text="@string/lbl_welcome_back"/>
+        <EditText android:hint="@string/lbl_enter_email"
+            android:id="@+id/etEnterEmail"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_57pxh"
+            android:layout_marginStart="@dimen/_52pxh"
+            android:layout_marginTop="@dimen/_52pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_29pxv"
+            android:singleLine="true"
+            android:text="@={googlePixel2Xl3VM.googlePixel2Xl3Model.etEnterEmailValue}"
+            android:textColorHint="@color/white_A700" style="@style/etPoppinsregular18"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtPassword"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_60pxh"
+            android:layout_marginStart="@dimen/_52pxh"
+            android:layout_marginTop="@dimen/_60pxv"
+            android:layout_width="match_parent"
+            android:text="@{googlePixel2Xl3VM.googlePixel2Xl3Model.txtPassword}"
+            style="@style/txtPoppinsregular18_1" tools:text="@string/lbl_password"/>
+        <View android:background="@color/gray_50" android:id="@+id/line"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_1pxv"
+            android:layout_marginEnd="@dimen/_57pxh"
+            android:layout_marginStart="@dimen/_52pxh"
+            android:layout_marginTop="@dimen/_25pxv" android:layout_width="@dimen/_302pxh"/>
+        <FrameLayout android:gravity="center" android:id="@+id/frame"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_138pxh"
+            android:layout_marginStart="@dimen/_132pxh"
+            android:layout_marginTop="@dimen/_18pxv" android:layout_width="match_parent">
+            <ImageView android:clickable="true" android:gravity="center"
+                android:id="@+id/image1" android:layout_gravity="center"
+                android:layout_height="@dimen/_56pxv"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY" android:src="@drawable/img_rectangle_6_1"/>
+            <TextView android:gravity="top|start"
+                android:id="@+id/txtSignIn"
+                android:layout_gravity="center|start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_17pxv"
+                android:layout_marginEnd="@dimen/_53pxh"
+                android:layout_marginStart="@dimen/_25pxh"
+                android:layout_marginTop="@dimen/_17pxv"
+                android:layout_width="wrap_content"
+                android:text="@{googlePixel2Xl3VM.googlePixel2Xl3Model.txtSignIn}"
+                style="@style/txtPublicSansbold19" tools:text="@string/lbl_sign_in"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/frame1"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_76pxv"
+            android:layout_marginEnd="@dimen/_93pxh"
+            android:layout_marginStart="@dimen/_93pxh"
+            android:layout_marginTop="@dimen/_61pxv" android:layout_width="match_parent">
+            <ImageView android:clickable="true" android:gravity="center"
+                android:id="@+id/image2" android:layout_gravity="center"
+                android:layout_height="@dimen/_52pxv"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY" android:src="@drawable/img_rectangle_1_1"/>
+            <TextView android:gravity="center"
+                android:id="@+id/txtForgotPasswor"
+                android:layout_gravity="center|end"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_13pxv"
+                android:layout_marginEnd="@dimen/_15pxh"
+                android:layout_marginStart="@dimen/_24pxh"
+                android:layout_marginTop="@dimen/_12pxv"
+                android:layout_width="match_parent"
+                android:text="@{googlePixel2Xl3VM.googlePixel2Xl3Model.txtForgotPasswor}"
+                style="@style/txtPoppinssemibold18" tools:text="@string/msg_forgot_passwor"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

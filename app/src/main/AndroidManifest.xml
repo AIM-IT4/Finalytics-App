@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.finalytics.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.finalytics.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" android:name="com.facebook.FacebookActivity"/>
+        <activity android:exported="true" android:name="com.facebook.CustomTabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/fb_login_protocol_scheme"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.finalytics.app.modules.googlepixel2xl6.ui.GooglePixel2Xl6Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finalytics.app.modules.googlepixel2xl13.ui.GooglePixel2Xl13Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finalytics.app.modules.googlepixel2xl12.ui.GooglePixel2Xl12Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finalytics.app.modules.googlepixel2xl4.ui.GooglePixel2Xl4Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finalytics.app.modules.appnavigation.ui.AppNavigationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finalytics.app.modules.googlepixel2xl18.ui.GooglePixel2Xl18Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finalytics.app.modules.googlepixel2xl3.ui.GooglePixel2Xl3Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finalytics.app.modules.googlepixel2xl15.ui.GooglePixel2Xl15Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finalytics.app.modules.googlepixel2xl2.ui.GooglePixel2Xl2Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finalytics.app.modules.googlepixel2xl14.ui.GooglePixel2Xl14Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finalytics.app.modules.googlepixel2xl16.ui.GooglePixel2Xl16Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finalytics.app.modules.googlepixel2xl10.ui.GooglePixel2Xl10Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finalytics.app.modules.googlepixel2xl11.ui.GooglePixel2Xl11Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finalytics.app.modules.googlepixel2xl8.ui.GooglePixel2Xl8Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finalytics.app.modules.a41.ui.A41Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finalytics.app.modules.googlepixel2xl5.ui.GooglePixel2Xl5Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finalytics.app.modules.splash.ui.SplashActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.finalytics.app.modules.googlepixel2xl9.ui.GooglePixel2Xl9Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finalytics.app.modules.googlepixel2xl7.ui.GooglePixel2Xl7Activity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

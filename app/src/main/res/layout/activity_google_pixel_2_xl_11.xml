@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="googlePixel2Xl11VM" type="com.finalytics.app.modules.googlepixel2xl11.data.viewmodel.GooglePixel2Xl11VM"/>
+    </data>
+    <LinearLayout android:id="@+id/linear"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_900">
+        <androidx.appcompat.widget.AppCompatButton
+            android:gravity="center" android:id="@+id/btnPhonepe3"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_85pxh"
+            android:layout_marginStart="@dimen/_85pxh"
+            android:layout_marginTop="@dimen/_39pxv"
+            android:layout_width="match_parent"
+            android:text="@string/lbl_phonepe3"
+            android:textAllCaps="false"
+            style="@style/btnSolidRounded_10" tools:text="@string/lbl_phonepe3"/>
+        <TextView android:gravity="center"
+            android:id="@+id/txtSwotAnalysisO"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_101pxh"
+            android:layout_marginStart="@dimen/_101pxh"
+            android:layout_marginTop="@dimen/_29pxv"
+            android:layout_width="wrap_content"
+            android:text="@{googlePixel2Xl11VM.googlePixel2Xl11Model.txtSwotAnalysisO}"
+            style="@style/txtPublicSanssemibold18" tools:text="@string/msg_swot_analysis_o"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtWeakeness"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_164pxh"
+            android:layout_marginStart="@dimen/_150pxh"
+            android:layout_marginTop="@dimen/_29pxv"
+            android:layout_width="wrap_content"
+            android:text="@{googlePixel2Xl11VM.googlePixel2Xl11Model.txtWeakeness}"
+            style="@style/txtPublicSanssemibold18" tools:text="@string/lbl_weakeness"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtUpiAppNotA"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_38pxh"
+            android:layout_marginStart="@dimen/_38pxh"
+            android:layout_marginTop="@dimen/_29pxv"
+            android:layout_width="match_parent"
+            android:text="@{googlePixel2Xl11VM.googlePixel2Xl11Model.txtUpiAppNotA}"
+            style="@style/txtPublicSanssemibold22" tools:text="@string/msg_upi_app_not_a"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtYouCanBookTr"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_50pxh"
+            android:layout_marginStart="@dimen/_38pxh"
+            android:layout_marginTop="@dimen/_19pxv"
+            android:layout_width="match_parent"
+            android:text="@{googlePixel2Xl11VM.googlePixel2Xl11Model.txtYouCanBookTr}"
+            style="@style/txtPublicSanssemibold22" tools:text="@string/msg_you_can_book_tr"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtNoInterestOn"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_22pxh"
+            android:layout_marginStart="@dimen/_38pxh"
+            android:layout_marginTop="@dimen/_35pxv"
+            android:layout_width="match_parent"
+            android:text="@{googlePixel2Xl11VM.googlePixel2Xl11Model.txtNoInterestOn}"
+            style="@style/txtPublicSanssemibold22_1" tools:text="@string/msg_no_interest_on"/>
+        <FrameLayout android:id="@+id/frame"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_30pxv"
+            android:layout_marginEnd="@dimen/_31pxh"
+            android:layout_marginStart="@dimen/_31pxh"
+            android:layout_marginTop="@dimen/_34pxv" android:layout_width="match_parent">
+            <ImageView android:clickable="true" android:gravity="center"
+                android:id="@+id/image" android:layout_gravity="center"
+                android:layout_height="@dimen/_53pxv"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY" android:src="@drawable/img_rectangle_6_5"/>
+            <TextView android:gravity="center"
+                android:id="@+id/txtContinue"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_16pxv"
+                android:layout_marginEnd="@dimen/_31pxh"
+                android:layout_marginStart="@dimen/_32pxh"
+                android:layout_marginTop="@dimen/_16pxv"
+                android:layout_width="wrap_content"
+                android:text="@{googlePixel2Xl11VM.googlePixel2Xl11Model.txtContinue}"
+                style="@style/txtPublicSansbold18" tools:text="@string/lbl_continue"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

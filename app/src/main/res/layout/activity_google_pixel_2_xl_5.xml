@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="googlePixel2Xl5VM" type="com.finalytics.app.modules.googlepixel2xl5.data.viewmodel.GooglePixel2Xl5VM"/>
+    </data>
+    <LinearLayout android:id="@+id/linear"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_900">
+        <ImageView android:clickable="true" android:id="@+id/image"
+            android:layout_gravity="start"
+            android:layout_height="@dimen/_37pxv"
+            android:layout_marginEnd="@dimen/_14pxh"
+            android:layout_marginStart="@dimen/_14pxh"
+            android:layout_marginTop="@dimen/_18pxv"
+            android:layout_width="@dimen/_39pxh"
+            android:scaleType="centerCrop" android:src="@drawable/img_menu"/>
+        <ImageView android:id="@+id/image1" android:layout_gravity="end"
+            android:layout_height="@dimen/_68pxv"
+            android:layout_marginEnd="@dimen/_40pxh"
+            android:layout_marginStart="@dimen/_40pxh"
+            android:layout_marginTop="@dimen/_14pxv"
+            android:layout_width="@dimen/_67pxh"
+            android:scaleType="centerCrop"
+            imageRes="@{@drawable/img_image_7}" tools:src="@drawable/img_image_7"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtHeySweta" android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_5pxh"
+            android:layout_marginStart="@dimen/_5pxh"
+            android:layout_marginTop="@dimen/_26pxv"
+            android:layout_width="wrap_content"
+            android:text="@{googlePixel2Xl5VM.googlePixel2Xl5Model.txtHeySweta}"
+            style="@style/txtPublicSansbold24" tools:text="@string/lbl_hey_sweta"/>
+        <LinearLayout android:id="@+id/linear1"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_35pxv"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylewhite_A700cornerRadius">
+            <TextView android:gravity="top|start"
+                android:id="@+id/txtChooseAppToS"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_41pxh"
+                android:layout_marginStart="@dimen/_34pxh"
+                android:layout_marginTop="@dimen/_33pxv"
+                android:layout_width="match_parent"
+                android:text="@{googlePixel2Xl5VM.googlePixel2Xl5Model.txtChooseAppToS}"
+                style="@style/txtPoppinsbold24" tools:text="@string/msg_choose_app_to_s"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:clickable="true" android:gravity="center"
+                android:id="@+id/btnPaytm"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_86pxh"
+                android:layout_marginStart="@dimen/_84pxh"
+                android:layout_marginTop="@dimen/_24pxv"
+                android:layout_width="match_parent"
+                android:text="@string/lbl_paytm"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded_2" tools:text="@string/lbl_paytm"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:gravity="center" android:id="@+id/btnGooglePay"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_86pxh"
+                android:layout_marginStart="@dimen/_84pxh"
+                android:layout_marginTop="@dimen/_42pxv"
+                android:layout_width="match_parent"
+                android:text="@string/lbl_google_pay"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded_3" tools:text="@string/lbl_google_pay"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:gravity="center" android:id="@+id/btnAmazonPay"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_86pxh"
+                android:layout_marginStart="@dimen/_84pxh"
+                android:layout_marginTop="@dimen/_47pxv"
+                android:layout_width="match_parent"
+                android:text="@string/lbl_amazon_pay"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded_4" tools:text="@string/lbl_amazon_pay"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:clickable="true" android:gravity="center"
+                android:id="@+id/btnPhonepe"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_86pxh"
+                android:layout_marginStart="@dimen/_84pxh"
+                android:layout_marginTop="@dimen/_47pxv"
+                android:layout_width="match_parent"
+                android:text="@string/lbl_phonepe"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded_5" tools:text="@string/lbl_phonepe"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:clickable="true" android:gravity="center"
+                android:id="@+id/btnMobikwik"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_90pxv"
+                android:layout_marginEnd="@dimen/_86pxh"
+                android:layout_marginStart="@dimen/_84pxh"
+                android:layout_marginTop="@dimen/_44pxv"
+                android:layout_width="match_parent"
+                android:text="@string/lbl_mobikwik"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded_6" tools:text="@string/lbl_mobikwik"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="googlePixel2Xl7VM" type="com.finalytics.app.modules.googlepixel2xl7.data.viewmodel.GooglePixel2Xl7VM"/>
+    </data>
+    <LinearLayout android:id="@+id/linear"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_900">
+        <TextView android:gravity="center"
+            android:id="@+id/txtWeakness2"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_141pxh"
+            android:layout_marginStart="@dimen/_142pxh"
+            android:layout_marginTop="@dimen/_48pxv"
+            android:layout_width="wrap_content"
+            android:text="@{googlePixel2Xl7VM.googlePixel2Xl7Model.txtWeakness2}"
+            style="@style/txtPublicSanssemibold22_2" tools:text="@string/lbl_weakness2"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtDiversification"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_40pxh"
+            android:layout_marginStart="@dimen/_41pxh"
+            android:layout_marginTop="@dimen/_55pxv"
+            android:layout_width="match_parent"
+            android:text="@{googlePixel2Xl7VM.googlePixel2Xl7Model.txtDiversification}"
+            style="@style/txtPublicSanssemibold22_3" tools:text="@string/msg_diversification"/>
+        <TextView android:gravity="top|start"
+            android:id="@+id/txtCashUsageThe"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_40pxh"
+            android:layout_marginStart="@dimen/_41pxh"
+            android:layout_marginTop="@dimen/_26pxv"
+            android:layout_width="match_parent"
+            android:text="@{googlePixel2Xl7VM.googlePixel2Xl7Model.txtCashUsageThe}"
+            style="@style/txtPublicSanssemibold22_3" tools:text="@string/msg_cash_usage_the"/>
+        <ImageView android:id="@+id/image"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_284pxv"
+            android:layout_marginEnd="@dimen/_12pxh"
+            android:layout_marginStart="@dimen/_12pxh"
+            android:layout_marginTop="@dimen/_50pxv"
+            android:layout_width="@dimen/_387pxh"
+            android:scaleType="centerCrop"
+            cornerRadius="@{@dimen/_25pxh}"
+            imageRes="@{@drawable/img_image_3}" tools:src="@drawable/img_image_3"/>
+        <FrameLayout android:id="@+id/frame"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_22pxv"
+            android:layout_marginEnd="@dimen/_40pxh"
+            android:layout_marginStart="@dimen/_40pxh"
+            android:layout_marginTop="@dimen/_44pxv" android:layout_width="match_parent">
+            <ImageView android:clickable="true" android:gravity="center"
+                android:id="@+id/image1" android:layout_gravity="center"
+                android:layout_height="@dimen/_62pxv"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY" android:src="@drawable/img_rectangle_6_11"/>
+            <TextView android:gravity="center" android:id="@+id/txtMore"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_21pxv"
+                android:layout_marginEnd="@dimen/_48pxh"
+                android:layout_marginStart="@dimen/_48pxh"
+                android:layout_marginTop="@dimen/_20pxv"
+                android:layout_width="wrap_content"
+                android:text="@{googlePixel2Xl7VM.googlePixel2Xl7Model.txtMore}"
+                style="@style/txtPublicSansbold18" tools:text="@string/lbl_more"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>
